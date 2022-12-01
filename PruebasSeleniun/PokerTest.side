@@ -1,0 +1,1476 @@
+{
+  "id": "210307a5-e05f-4f06-99c4-0e99d6dce0d4",
+  "version": "2.0",
+  "name": "PokerTest",
+  "url": "https://localhost:7023/Jugada",
+  "tests": [{
+    "id": "a82d1e68-1f60-4120-8172-ff388ea75af1",
+    "name": "Color",
+    "commands": [{
+      "id": "f04014f0-07b5-449d-a30f-127f49bfd8f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:7023/Jugada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39666cd7-2893-4444-8e67-887a788d1724",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c228a72d-e892-4d47-bf21-5c3eb38531f4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [],
+      "value": "Welcome Poker Game"
+    }, {
+      "id": "3eab6a2c-9912-42a7-9341-c44e217c3c6b",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e1cea1-2278-4e2f-9b19-cf33f8c8da17",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cad4071-5549-4e19-90d3-ac22910bad5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f08c902a-736d-4f13-945a-c66f84fbd6cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d9dd8b0-78f3-4184-a4b0-5cd8a4785a2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10490cc0-1e4b-47b2-b862-cbe98f1d0cd5",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Numero",
+      "targets": [
+        ["name=cartas[0].Numero", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "fdd7b221-3f72-4356-92ea-a43ac902f6e8",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Palo",
+      "targets": [
+        ["name=cartas[0].Palo", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "d0bb54cb-abd3-4998-9116-081b75338594",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Numero",
+      "targets": [
+        ["name=cartas[1].Numero", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "11"
+    }, {
+      "id": "59495b59-9527-4a5d-904b-5da1e97b0c9c",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Palo",
+      "targets": [
+        ["name=cartas[1].Palo", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "2c89e266-ccb7-4de4-ab60-de0feea27a78",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Numero",
+      "targets": [
+        ["name=cartas[2].Numero", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": "8"
+    }, {
+      "id": "8d657d6c-d879-4df1-906d-2934760198df",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Palo",
+      "targets": [
+        ["name=cartas[2].Palo", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "fb843819-2689-4448-8eb3-3e31a78f9e38",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Numero",
+      "targets": [
+        ["name=cartas[3].Numero", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "e9bf0be4-f826-4d8f-a5f3-d5310499109b",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Palo",
+      "targets": [
+        ["name=cartas[3].Palo", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "7eccd922-49f8-4506-aece-abf249f1ccb1",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Numero",
+      "targets": [
+        ["name=cartas[4].Numero", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "522c8d7d-90e2-4ff4-972b-68b370df721d",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Palo",
+      "targets": [
+        ["name=cartas[4].Palo", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "816ec67a-3134-411f-a757-f1944431e944",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ccc9d74-542e-4747-af31-7be5a4a5d4bc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [],
+      "value": "Welcome Poker Game"
+    }, {
+      "id": "942c6cae-457d-42e7-b6fd-1881855e84cf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=th",
+      "targets": [],
+      "value": "Cartas"
+    }, {
+      "id": "c46eb99d-eca6-4fce-98aa-e358496940c5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1:nth-child(3)",
+      "targets": [],
+      "value": "Jugada: COLOR"
+    }, {
+      "id": "3e8c058a-d502-4f8b-ac61-928d5e71a18b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fe8ebd0f-d1de-42e3-8acc-eb4d143771e3",
+    "name": "Full",
+    "commands": [{
+      "id": "879213c2-d363-436d-8aa4-d75c8d504a57",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:7023/Jugada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a09e2354-4384-4363-b956-6fded7df480b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "578de30b-7ee0-4bb9-9ddc-4893b555e79d",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ca7567-5989-4244-afdb-b59e59779969",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92da25e9-b2c8-429d-a14c-845e6d1c14d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d4a5cdb-09bd-4e9d-bac7-0489615d89c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26da391d-c7fa-4bbc-88c8-456348ad229a",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "989860e7-b59a-444e-b841-c55bd1f8709a",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Numero",
+      "targets": [
+        ["name=cartas[0].Numero", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "87a952ad-9d45-410f-81ee-4300adeb8eaa",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Palo",
+      "targets": [
+        ["name=cartas[0].Palo", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "2b873ad2-37fb-4f5a-989f-7c909db8e7af",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Numero",
+      "targets": [
+        ["name=cartas[1].Numero", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b3d1aece-5c4c-4df1-8216-edf33b8cc55e",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Palo",
+      "targets": [
+        ["name=cartas[1].Palo", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ESPADA"
+    }, {
+      "id": "b6303ab7-4daa-4733-9a47-6c2436180df1",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Numero",
+      "targets": [
+        ["name=cartas[2].Numero", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "61d26fe7-46e1-4dfd-93c5-3f4d366af97a",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Palo",
+      "targets": [
+        ["name=cartas[2].Palo", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "CORAZON"
+    }, {
+      "id": "a1d7eaec-0646-4c33-9f4d-bf08bba8bb21",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Numero",
+      "targets": [
+        ["name=cartas[3].Numero", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "f596be78-7f48-4e29-a34a-1acdaf27cc65",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Palo",
+      "targets": [
+        ["name=cartas[3].Palo", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "TREBOL"
+    }, {
+      "id": "48398f35-1b50-4cdb-be1c-a6df692506e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Numero",
+      "targets": [
+        ["name=cartas[4].Numero", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "064772fd-039b-4692-9c47-4ec13696e888",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Palo",
+      "targets": [
+        ["name=cartas[4].Palo", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "6313b959-3fa0-4d37-ac63-a523d41bd1fb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [],
+      "value": "Welcome Poker Game"
+    }, {
+      "id": "6454be5d-a8db-494f-b243-f26e1db916d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8aae079-8e8e-4f03-8442-9fd617be9642",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [],
+      "value": "Welcome Poker Game"
+    }, {
+      "id": "069e5290-1c92-4648-a753-ceb4a67a6757",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=th",
+      "targets": [],
+      "value": "Cartas"
+    }, {
+      "id": "3148c411-0153-4260-ace4-71131d9af4f2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1:nth-child(3)",
+      "targets": [],
+      "value": "Jugada: FULL"
+    }, {
+      "id": "8e3d0824-3c50-4890-b693-0169d3170604",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "94ed7e79-2849-4dd3-b149-d5722fd15aec",
+    "name": "Validarciones",
+    "commands": [{
+      "id": "85cef940-98e5-4096-b2ba-82c258c3e65c",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:7023/Jugada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f6aa9b2-53b8-4be2-bb11-ce5a0f779ed0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "552b467f-a12c-4e75-aa00-d82e9a79298f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6eba5de-435e-48d0-b47a-c5cfb0e882dd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.field-validation-error",
+      "targets": [],
+      "value": "Las cartas deben ser al menos 4"
+    }, {
+      "id": "75a9ba57-7472-4fc9-bfdd-557f09effe42",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "351e8682-ad9d-4c10-8400-f322400c73db",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c6cc4d3-45ba-4fe5-800d-c7a436a2c581",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "238f48c4-1a17-4da4-8754-cf304aa3e084",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71e87c17-7e13-45b8-8d7a-487a0f5e82f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b6dbd6-f87b-4497-a52c-2072a63d3a03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d546db-fca4-486b-b275-77186daf6b6e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > td:nth-child(2)",
+      "targets": [],
+      "value": "Palo no valida"
+    }, {
+      "id": "95fe726a-9550-4398-8a7f-c2bfc288add6",
+      "comment": "",
+      "command": "click",
+      "target": "name=cartas[0].Palo",
+      "targets": [
+        ["name=cartas[0].Palo", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c217ae74-ca51-419f-ac0b-4d5a6702b87a",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Palo",
+      "targets": [
+        ["name=cartas[0].Palo", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "911bafd4-121c-4a46-9351-de29ff4e5e9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b5342fd-89c6-484d-8285-4235d62f161c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > .color-in",
+      "targets": [],
+      "value": "Numero no valida"
+    }, {
+      "id": "859d8ced-0633-4801-90e8-151c4e1a8909",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Numero",
+      "targets": [
+        ["name=cartas[0].Numero", "name"],
+        ["css=tr:nth-child(1) > .color-in > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "654a447b-5f4c-4abe-ae50-7b70581b13c5",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Numero",
+      "targets": [
+        ["name=cartas[1].Numero", "name"],
+        ["css=tr:nth-child(2) > .color-in > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "18"
+    }, {
+      "id": "49d1c738-44b7-400c-81dc-e0ffa09fb9d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b0708b1-e1d4-43e9-a0c5-02b56b702e6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[2]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Palo no valida')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adbc4466-65e3-4c4c-ba17-c5726bcdd0e0",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Palo",
+      "targets": [
+        ["name=cartas[1].Palo", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "TREBOL"
+    }, {
+      "id": "d25671b1-c3c7-43b3-a9e4-7d5742bef50a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc51068-22e9-4454-ad40-a910c8a22b96",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > .color-in",
+      "targets": [],
+      "value": "Numero no valida"
+    }, {
+      "id": "dc08981e-f591-4d76-860f-da9efb4e6b44",
+      "comment": "",
+      "command": "click",
+      "target": "name=cartas[2].Numero",
+      "targets": [
+        ["name=cartas[2].Numero", "name"],
+        ["css=tr:nth-child(3) > .color-in > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c5fcf0-4574-4af1-9f34-9c3257481f97",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Numero",
+      "targets": [
+        ["name=cartas[2].Numero", "name"],
+        ["css=tr:nth-child(3) > .color-in > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "0c313183-7ffe-43c2-86e1-0d2034a95abc",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Palo",
+      "targets": [
+        ["name=cartas[2].Palo", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "33c389b8-4760-41f4-a788-f5f9c2176e5f",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Numero",
+      "targets": [
+        ["name=cartas[3].Numero", "name"],
+        ["css=tr:nth-child(4) > .color-in > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "5e1b591d-f6b3-483b-9175-14e52141ac69",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Palo",
+      "targets": [
+        ["name=cartas[3].Palo", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "TREBOL"
+    }, {
+      "id": "af743972-26e7-4205-86a6-db76cc7542fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Numero",
+      "targets": [
+        ["name=cartas[4].Numero", "name"],
+        ["css=tr:nth-child(5) > .color-in > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "adcf004c-850b-4281-97ca-ecfc5f2433cb",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Palo",
+      "targets": [
+        ["name=cartas[4].Palo", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ESPADA"
+    }, {
+      "id": "b88cac5e-e1f3-4a04-ac1c-cdea3d76e44d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd6ff424-8770-4df8-87f8-a63b572d9f31",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Numero",
+      "targets": [
+        ["name=cartas[1].Numero", "name"],
+        ["css=tr:nth-child(2) > .color-in > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "49775e1f-124d-4ff2-a84d-7cd69d6c497f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ce776be-7460-4288-ae93-988eb35acf0e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1:nth-child(3)",
+      "targets": [],
+      "value": "Jugada: DOBLE"
+    }, {
+      "id": "e6957f07-d9f4-418d-bee5-85dfc3606e0d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3d8fc31b-7f36-4a0f-b5f8-f1d76848c0e6",
+    "name": "Escalera",
+    "commands": [{
+      "id": "fe350c59-eca4-4e11-a5c4-ac408f03cb9d",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:7023/Jugada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c79ef48f-34fa-40bf-b317-c3594b0a63da",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67710217-ae83-46ed-bb1a-9f2b06ede8a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c311aeb-0f8d-4e18-8834-bb5d7fec969c",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "766021bc-5f97-4425-ad84-6241eb030cdd",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2246a66-c2e3-4feb-8e75-5d0fda14fae4",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d61cf33b-aabb-4b6f-9ea9-f876709312e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "177bb907-5277-4830-8664-375c5a6f3f15",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Numero",
+      "targets": [
+        ["name=cartas[0].Numero", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "544fa591-826d-4da0-bc69-53f356e88467",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Palo",
+      "targets": [
+        ["name=cartas[0].Palo", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "CORAZON"
+    }, {
+      "id": "af2d4571-8dda-4290-a618-c40ec1f75ff5",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Numero",
+      "targets": [
+        ["name=cartas[1].Numero", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "9"
+    }, {
+      "id": "8af2bf70-03f2-4546-9d6b-b0c1781b627b",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Palo",
+      "targets": [
+        ["name=cartas[1].Palo", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ESPADA"
+    }, {
+      "id": "09ebd6b0-4799-4d73-99b3-ebacd52fa4ac",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Numero",
+      "targets": [
+        ["name=cartas[2].Numero", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": "8"
+    }, {
+      "id": "31f4b273-e16f-4b10-b2d8-f618ec6b9541",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Palo",
+      "targets": [
+        ["name=cartas[2].Palo", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "e59091fd-5ae3-463d-bd42-a28f93ddf984",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Numero",
+      "targets": [
+        ["name=cartas[3].Numero", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "dcd8aef8-c4b6-46fb-bedb-8c42a0979769",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Palo",
+      "targets": [
+        ["name=cartas[3].Palo", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "TREBOL"
+    }, {
+      "id": "9d81e19b-5f29-472b-be66-1649830e2b22",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Numero",
+      "targets": [
+        ["name=cartas[4].Numero", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "6ea0cba4-0a5f-4677-9e88-5163c2815b9e",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Palo",
+      "targets": [
+        ["name=cartas[4].Palo", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ESPADA"
+    }, {
+      "id": "00732174-8813-4e56-873a-b30f1a7c304d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [],
+      "value": "Welcome Poker Game"
+    }, {
+      "id": "2bfb1c5e-29b8-4428-985e-362f7cddaafd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43f65241-1631-494a-9088-4ae5b8a806d9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=th",
+      "targets": [],
+      "value": "Cartas"
+    }, {
+      "id": "e412a664-d047-434b-bb15-ba086fa181ec",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1:nth-child(3)",
+      "targets": [],
+      "value": "Jugada: ESCALERA"
+    }]
+  }, {
+    "id": "c417e9b7-f43d-4c24-8d63-86fdd3837233",
+    "name": "Trio",
+    "commands": [{
+      "id": "8ff8f9da-783f-4bbe-b9ff-d772b084786d",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:7023/Jugada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5a8dc3c-bde5-464a-bdcc-71a05cb0199a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [],
+      "value": "Welcome Poker Game"
+    }, {
+      "id": "56c7059c-deba-4b27-a5f9-d1aaf985f162",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "710523aa-4b7c-4da2-8dc0-5180918b8967",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4270af9c-529b-4f5d-8daf-1bbdb0d3b15f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "606a02cd-89fb-4bc1-b6e4-1b7ce29f5a93",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "292c0662-af46-4d68-b73b-60368f009a09",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddAlternativa",
+      "targets": [
+        ["id=btnAddAlternativa", "id"],
+        ["linkText=Añadir Carta", "linkText"],
+        ["css=#btnAddAlternativa", "css:finder"],
+        ["xpath=//a[contains(text(),'Añadir Carta')]", "xpath:link"],
+        ["xpath=//a[@id='btnAddAlternativa']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Añadir Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1252768-c1f3-44c7-bce5-65ef645d680e",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Numero",
+      "targets": [
+        ["name=cartas[0].Numero", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "5bfe70c0-3df2-4f8e-9e48-4fe41d34c183",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[0].Palo",
+      "targets": [
+        ["name=cartas[0].Palo", "name"],
+        ["css=tr:nth-child(1) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[0].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "CORAZON"
+    }, {
+      "id": "b5a040ed-a85b-494a-b924-2c72eef89a6a",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Numero",
+      "targets": [
+        ["name=cartas[1].Numero", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "9bb0e628-d92e-45f2-b999-844d31335bd4",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[1].Palo",
+      "targets": [
+        ["name=cartas[1].Palo", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[1].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ESPADA"
+    }, {
+      "id": "87cbc25f-e734-462d-8f1d-5762b66d8cb1",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Numero",
+      "targets": [
+        ["name=cartas[2].Numero", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "ff9ab044-0244-4659-99f1-6db03395aa29",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[2].Palo",
+      "targets": [
+        ["name=cartas[2].Palo", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[2].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "COCO"
+    }, {
+      "id": "1e0aec20-ccb9-4ff9-ab55-ee9fc8d5ae19",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Numero",
+      "targets": [
+        ["name=cartas[3].Numero", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "efd31569-93d8-4494-9f6e-1a87669babec",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[3].Palo",
+      "targets": [
+        ["name=cartas[3].Palo", "name"],
+        ["css=tr:nth-child(4) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[3].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "TREBOL"
+    }, {
+      "id": "1896053f-4fba-4e4b-bb97-4107477b2700",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Numero",
+      "targets": [
+        ["name=cartas[4].Numero", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Numero']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "337f7313-fbfd-42dd-a56f-307378e21823",
+      "comment": "",
+      "command": "type",
+      "target": "name=cartas[4].Palo",
+      "targets": [
+        ["name=cartas[4].Palo", "name"],
+        ["css=tr:nth-child(5) > td:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cartas[4].Palo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableAlternativas']/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ESPADA"
+    }, {
+      "id": "ac646f6a-0993-4cd1-a61c-78911cde7b60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Jugar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf17938a-b71d-4e21-92b7-3eb29367b904",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1:nth-child(3)",
+      "targets": [],
+      "value": "Jugada: TRIO"
+    }, {
+      "id": "28771efa-a068-4d2c-9c2f-a3c408c17909",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "87a4dbd7-0380-4803-b1ef-48df62e2849d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a82d1e68-1f60-4120-8172-ff388ea75af1"]
+  }],
+  "urls": ["https://localhost:7023/Jugada"],
+  "plugins": []
+}

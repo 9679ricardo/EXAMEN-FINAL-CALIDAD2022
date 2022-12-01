@@ -1,0 +1,81 @@
+﻿@model Calidad20222.web.Models.Jugada
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form action="/Jugada/Index" method="post">
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Poker Game</h1>
+    <label><a href="#" id="btnAddAlternativa" class="btn btn-success">Añadir Carta</a> </label>
+    <hr/>
+        @Html.ValidationMessage("Cartas")
+    <table class="table table-condensed" id="tableAlternativas">
+        @{
+            var index = 0;
+        }
+        @foreach (var item in Model.Cartas)
+        {
+            <tr>
+                
+                <td class="color-in">
+                    <input type="number" class="form-control" name="cartas[@index].Numero" value="@item.Numero"/>
+                        @Html.ValidationMessage("Alter"+@index+"Numero")
+                </td>
+                <td>
+                    <input type="text" class="form-control" name="cartas[@index].Palo" value="@item.Palo">
+                        @Html.ValidationMessage("Alter"+@index+"Palo")
+                </td>
+            </tr>
+            index++;
+        }
+
+    </table>
+    <hr />
+    <br/>
+   <button class="btn btn-primary">Jugar</button>
+</div>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+</script>
+<script>
+    var $alert = $("#AlertEmpty");
+    var index = $("#tableAlternativas").find("tr").length;
+    console.log(index);
+
+    if (index == 5) {
+            console.log("esconder");
+            $("#btnAddAlternativa").hide();
+     }
+   
+
+    $("#btnAddAlternativa").click(function (event) {
+        event.preventDefault();
+
+       
+        var inputAlternativa = $("#inputAlternative");
+
+        var row = `<tr>
+                <td>
+                                    <input type="number" class="form-control" name="cartas[${index}].Numero">
+                </td>
+                <td>
+                               <input type="text" class="form-control" name="cartas[${index}].Palo">
+                </td>
+            </tr>`;
+
+        $("#tableAlternativas").append(row);
+
+        inputAlternativa.val("");
+        index++;
+        $alert.hide();
+
+         if (index == 5) {
+            console.log("esconder");
+            $("#btnAddAlternativa").hide();
+        }
+
+    });
+
+</script>
